@@ -1,0 +1,15 @@
+/* Background biru penuh */
+.blue-background {
+    background: #1E90FF;
+    min-height: 100vh;
+}
+
+/* Animasi klik tombol (zoom) */
+.animated-btn {
+    transition: 0.15s ease;
+}
+
+.animated-btn:active {
+    transform: scale(0.90);
+    box-shadow: 0 0 12px rgba(103, 143, 228, 0.7);
+}
